@@ -1,5 +1,5 @@
 .container {
-    max-width: 36rem;
+    max-width: 72rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
   }
@@ -11,5 +11,11 @@
   }
   
   .backToHome {
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #141222;
+    color: #fff;
     margin: 3rem 0 0;
   }
+
