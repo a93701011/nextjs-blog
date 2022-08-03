@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import Image from 'next/image';
-import Link from 'next/Link';
 import style from '../styles/art.module.css'
 import utilStyles from '../styles/utils.module.css';
 
@@ -14,8 +13,8 @@ export default function Home({ allPostsData }) {
             </Head>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 
-                <Link href="/"><a> Che-Yu Wu x Nobody Hambody</a>
-                </Link>
+                <a href="https://nobodyeth.art/">c he-Yu Wu x Nobody Hambody</a>
+             
                 <Image
                     priority
                     src="/images/blackwhitnobody.jpg"
