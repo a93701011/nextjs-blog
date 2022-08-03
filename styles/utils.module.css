@@ -50,3 +50,9 @@
   .lightText {
     color: #666;
   }
+
+  @media only screen and (max-width: 700px) {
+    .blogtext{
+      font-size: x-small;
+    }
+  }
