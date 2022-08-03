@@ -17,19 +17,13 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      {/* Keep the existing code here */}
+
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>I have been working as Data AI engineer for 10 years, and learning web app development and web3 recently.</p>
-
-      </section>
-
-      {/* Add this <section> tag below the existing <section> tag */}
-
+    
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Work</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
